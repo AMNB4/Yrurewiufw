@@ -80,10 +80,10 @@ server.on("listening", () => {
 	const address = server.address();
 	console.clear();
 	console.log(
-		chalk.green(`🚀 Lunaar Listening on http://localhost:${address.port}`),
+		chalk.green(`🚀 Vasion Listening on http://localhost:${address.port}`),
 	);
 	console.log();
-	console.log(chalk.magenta(`🌙 Made by the Parcoil Network`));
+	console.log(chalk.magenta(`🌙 Made by the Vasion Network`));
 	console.log();
 	console.log(chalk.white(`⭐ Please Star on github`));
 });
